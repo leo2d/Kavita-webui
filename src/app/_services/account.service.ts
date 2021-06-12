@@ -114,7 +114,7 @@ export class AccountService implements OnDestroy {
     const userString = localStorage.getItem(this.userKey);
     
     if (userString) {
-      return JSON.parse(userString)
+      return JSON.parse(userString);
     }
 
     return undefined;
