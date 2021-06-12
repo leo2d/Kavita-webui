@@ -115,7 +115,7 @@ export class AccountService implements OnDestroy {
     
     if (userString) {
       return JSON.parse(userString)
-    };
+    }
 
     return undefined;
   }
